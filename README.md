@@ -21,8 +21,8 @@ O projeto foi organizado seguindo as boas práticas de desenvolvimento web, sepa
 ```text
 meu-projeto-agrinho/
 │
-├── index.html        # Página principal do site
+├── html        # Página principal do site
 ├── css/
-│   └── style.css     # Estilizações visuais e design responsivo
+│   └── CSS     # Estilizações visuais e design responsivo
 └── js/
-    └── script.js     # Lógica e interatividade do quiz
+    └── Java     # Lógica e interatividade do quiz
