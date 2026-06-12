@@ -1,28 +1,79 @@
-# 🌾 Projeto Pecuária Sustentável — Agrinho 2026
+@@ -0,0 +1,78 @@
+# 🌱 AgroTech Sustentável
 
-Este projeto foi desenvolvido especialmente para o **Concurso Agrinho 2026**. Trata-se de um site responsivo e interativo criado para conscientizar a comunidade escolar e a sociedade sobre a importância das práticas sustentáveis na pecuária moderna.
+Landing page responsiva inspirada em soluções agropecuárias sustentáveis, desenvolvida com HTML, CSS e JavaScript.
 
-O objetivo principal é mostrar como a tecnologia, o manejo correto do solo e o respeito ao bem-estar animal podem caminhar juntos para garantir uma produção de alimentos eficiente e amiga do meio ambiente.
+## 📋 Funcionalidades
 
----
+* Design moderno e responsivo
+* Menu de navegação
+* Seção Hero com destaque principal
+* Seção de apresentação do comedouro
+* Cards de benefícios
+* Efeitos de animação ao rolar a página
+* Rolagem suave entre seções
+* Efeito dinâmico no cabeçalho
+* Compatível com dispositivos móveis
 
-## 🚀 Funcionalidades do Site
+## 🚀 Tecnologias Utilizadas
 
-- **Design Responsivo:** O site se adapta perfeitamente a computadores, tablets e celulares.
-- **Seção Educativa:** Explicações claras sobre conceitos fundamentais como a técnica **ILPF** (Integração Lavoura-Pecuária-Floresta) e o manejo rotacionado.
-- **Quiz Interativo:** Um pequeno jogo de perguntas e respostas dinâmico via JavaScript para testar os conhecimentos dos visitantes.
+* HTML5
+* CSS3
+* JavaScript (ES6)
 
----
-
-## 📁 Estrutura de Pastas do Repositório
-
-O projeto foi organizado seguindo as boas práticas de desenvolvimento web, separando a estrutura, o design e as funções:
+## 📁 Estrutura do Projeto
 
 ```text
-meu-projeto-agrinho/
+agrotech-sustentavel/
 │
-├── html        # Página principal do site
-├── css/
-│   └── CSS     # Estilizações visuais e design responsivo
-└── js/
-    └── Java     # Lógica e interatividade do quiz
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   ├── images/
+│   └── icons/
+│
+└── README.md
+```
+
+## ⚙️ Como Executar
+
+1. Baixe ou clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/agrotech-sustentavel.git
+```
+
+2. Entre na pasta do projeto:
+
+```bash
+cd agrotech-sustentavel
+```
+
+3. Abra o arquivo `index.html` em qualquer navegador.
+
+## 🎨 Personalização
+
+Você pode alterar:
+
+* Cores principais no arquivo `style.css`
+* Textos diretamente no `index.html`
+* Imagens da seção principal
+* Animações no arquivo `script.js`
+
+## 📱 Responsividade
+
+O projeto foi desenvolvido para funcionar em:
+
+* Desktop
+* Notebook
+* Tablet
+* Smartphone
+
+## 📄 Licença
+
+Este projeto está disponível para fins educacionais e pode ser adaptado conforme necessário.
+
+---
+
+Desenvolvido com ❤️ para o setor agropecuário.
