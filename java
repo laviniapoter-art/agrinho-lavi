@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnQuiz = document.getElementById('btn-quiz');
     const resultadoQuiz = document.getElementById('resultado-quiz');
 
-    // Banco de perguntas do Quiz do Agrinho
     const perguntas = [
         {
             pergunta: "O que significa a sigla ILPF?\n1) Integração Lavoura-Pecuária-Floresta\n2) Indústria de Leite e Produção de Forragem",
@@ -17,19 +16,16 @@ document.addEventListener('DOMContentLoaded', () => {
     btnQuiz.addEventListener('click', () => {
         let acertos = 0;
 
-        // Pergunta 1
         let resp1 = prompt(perguntas[0].pergunta);
         if (resp1 === perguntas[0].respostaCorreta) {
             acertos++;
         }
 
-        // Pergunta 2
         let resp2 = prompt(perguntas[1].pergunta);
         if (resp2 && resp2.toLowerCase().trim() === perguntas[1].respostaCorreta) {
             acertos++;
         }
 
-        // Exibição dos Resultados na Interface do Usuário
         resultadoQuiz.classList.remove('escondido');
         if (acertos === 2) {
             resultadoQuiz.innerHTML = `🎉 Excelente! Você acertou todas (${acertos}/2). Você entende tudo de pecuária sustentável!`;
