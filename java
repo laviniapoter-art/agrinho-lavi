@@ -18,8 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Pergunta 1 (com verificação para o caso de o usuário cancelar)
         let resp1 = prompt(perguntas[0].pergunta);
-        if (resp1 && resp1.toLowerCase().trim() === perguntas[0].respostaCorreta) {
-            acertos++;
+     if (resp1 && resp1.toLowerCase().trim() === perguntas[0].respostaCorreta) {
         }
 
         // Pergunta 2 (com verificação para o caso de o usuário cancelar)
