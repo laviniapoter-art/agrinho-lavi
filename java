@@ -16,16 +16,19 @@ document.addEventListener('DOMContentLoaded', () => {
     btnQuiz.addEventListener('click', () => {
         let acertos = 0;
 
+        // Pergunta 1 (com verificação para o caso de o usuário cancelar)
         let resp1 = prompt(perguntas[0].pergunta);
-        if (resp1 === perguntas[0].respostaCorreta) {
+        if (resp1 && resp1.toLowerCase().trim() === perguntas[0].respostaCorreta) {
             acertos++;
         }
 
+        // Pergunta 2 (com verificação para o caso de o usuário cancelar)
         let resp2 = prompt(perguntas[1].pergunta);
         if (resp2 && resp2.toLowerCase().trim() === perguntas[1].respostaCorreta) {
             acertos++;
         }
 
+        // Exibição do resultado na tela
         resultadoQuiz.classList.remove('escondido');
         if (acertos === 2) {
             resultadoQuiz.innerHTML = `🎉 Excelente! Você acertou todas (${acertos}/2). Você entende tudo de pecuária sustentável!`;
